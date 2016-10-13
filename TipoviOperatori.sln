@@ -74,6 +74,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17", "17", "{468F8D3B-B3A4-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeričkaPromocija", "NumeričkaPromocija\NumeričkaPromocija.csproj", "{DCF83421-563E-4F52-B0B4-47487EB8BD35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postavke_imenika", "Postavke_imenika\Postavke_imenika.csproj", "{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -248,6 +250,18 @@ Global
 		{DCF83421-563E-4F52-B0B4-47487EB8BD35}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{DCF83421-563E-4F52-B0B4-47487EB8BD35}.Release|x86.ActiveCfg = Release|Any CPU
 		{DCF83421-563E-4F52-B0B4-47487EB8BD35}.Release|x86.Build.0 = Release|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Debug|x86.Build.0 = Debug|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,5 +283,6 @@ Global
 		{77CBE4BF-9965-4858-AF32-CB85D4F83212} = {EB5DA9AF-9F8B-4446-BF17-AF812ECCECD8}
 		{05FA82A8-E188-4E90-9A96-1E754B41D425} = {B862173F-90A6-4C35-B765-B9CBEE1CD50B}
 		{DCF83421-563E-4F52-B0B4-47487EB8BD35} = {86AAC9A1-DC3B-4620-8797-982AB94C89D2}
+		{A3CFD179-4025-4AE2-B665-0ABD0796A4E6} = {B102E69B-43EF-4139-82D1-AA9C81EB47D3}
 	EndGlobalSection
 EndGlobal
