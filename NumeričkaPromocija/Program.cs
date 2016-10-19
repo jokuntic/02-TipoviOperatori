@@ -10,8 +10,11 @@ namespace NumeričkaPromocija
     {
         static void Main(string[] args)
         {
-
-
+            int x = 5;
+            int y = 3;
+            Console.WriteLine("{0}",(x/y).GetType());
+            double d = 3.345;
+            Console.WriteLine("{0}", (x + d).GetType());
             Console.ReadKey();
         }
     }
