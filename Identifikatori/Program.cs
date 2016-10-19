@@ -8,7 +8,13 @@ namespace CSharp.TipoviOperatori
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+            int @string;
+            int get;
+            int Main;
+            int \u0161etrdesetšest;
+            int бројШест;
         }
     }
 }
+ 
