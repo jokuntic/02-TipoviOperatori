@@ -22,10 +22,11 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             Osoba osoba = new Osoba();
-
-            
+            System.Console.WriteLine(osoba.DajOib());                   
             Osoba osobaStudent = new Student();
-
+            osobaStudent.DajOib();
+           // Student student = new Osoba(); nije moguća implicitna pretvorba
+            System.Console.ReadKey();
 
 
         }
