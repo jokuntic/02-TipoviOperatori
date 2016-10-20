@@ -32,7 +32,7 @@ namespace CSharp.TipoviOperatori
             catch (Exception e)
             {
                 Console.WriteLine("Bačena iznimka!");
-                Console.WriteLine(e.Message);
+                Console.WriteLine(e.Message); //bačena iznimka tipa InvalidCastException
             }
 
             Console.ReadKey();
