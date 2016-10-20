@@ -9,12 +9,13 @@ namespace CSharp.TipoviOperatori
     {
         static void Main(string[] args)
         {
-            double? nulabilniDuplić = Math.PI;
+            double? nulabilniDuplić = null;
             Console.WriteLine(nulabilniDuplić);
 
-            double običniDuplic = Math.PI;
+            // double običniDuplic = null; nije moguće postaviti na null
 
-
+            Nullable<double> generički_nulabilni=null;
+            Console.WriteLine(generički_nulabilni);
             Console.ReadKey();
         }
     }
