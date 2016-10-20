@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace CSharp.TipoviOperatori
 {
@@ -18,7 +19,7 @@ namespace CSharp.TipoviOperatori
         decimal a;
         double b;
     }
-
+    [StructLayout(LayoutKind.Sequential)]
     class MojaKlasa
     {
         public void IspišiSe()
@@ -35,15 +36,20 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             // ispisati duljinu tipa decimal
-
+            int dec = sizeof(decimal);
+            Console.WriteLine(dec);
             // ispisati duljinu tipa double
-
+            int d = sizeof(double);
+            Console.WriteLine(d);
             // ispisati duljinu tipa MojaStruktura
-
+            int duljinaMS = System.Runtime.InteropServices.Marshal.SizeOf(typeof(MojaStruktura));
+            Console.WriteLine(duljinaMS);
             // ispisati duljinu tipa MojaSloženaStruktura
-
+            int duljinaMSS = System.Runtime.InteropServices.Marshal.SizeOf(typeof(MojaSloženaStruktura));
+            Console.WriteLine(duljinaMSS);
             // ispisati duljinu tipa MojaKlasa
-
+            int duljinaMK = System.Runtime.InteropServices.Marshal.SizeOf(typeof(MojaKlasa));
+            Console.WriteLine(duljinaMK);
             Console.ReadKey();
         }
     }
