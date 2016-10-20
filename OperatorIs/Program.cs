@@ -11,9 +11,11 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             Osoba janko = new Student();
-            
-            Osoba osoba = new Osoba();
+            bool daliJeStudent = janko is Student;//true
+            bool daliJeOsoba = janko is Osoba;// true
 
+            Osoba osoba = new Osoba();
+            bool isOsoba = osoba is Osoba;//true
 
             Console.ReadKey();
         }
