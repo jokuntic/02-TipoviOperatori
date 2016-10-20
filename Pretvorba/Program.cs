@@ -36,23 +36,27 @@ namespace Pretvorba
         {
             Student student = new Student();
             // dodati sve moguće pozive metoda za student
-
+            student.DajSvojOib();
+            student.PoložiIspit("C#");
 
             Osoba osobaS = student;
             // dodati sve moguće pozive metoda za osobaS
+            osobaS.DajSvojOib();
 
 
-            Student sos = osobaS;
+            Student sos = (Student)osobaS;
             // dodati sve moguće pozive metoda za sos
-
+            sos.DajSvojOib();
+            sos.PoložiIspit("Matematika");
 
             Osoba osobaR = new Radnik();
             // dodati sve moguće pozive metoda za osobaR
+            osobaR.DajSvojOib();
 
-
-            Student sor = osobaR;
+            Student sor = (Student)osobaR; //baca exception kod pretvorbe
             // dodati sve moguće pozive metoda za sor
-
+            sor.DajSvojOib();
+            sor.PoložiIspit("SPA");
 
         }
     }
